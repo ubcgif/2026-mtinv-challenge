@@ -1,0 +1,32 @@
+name: simpeg-dcowan-nsem
+channels:
+  - conda-forge
+dependencies:
+  - numpy>=1.22
+  - scipy>=1.12
+  - pymatsolver>=0.3
+  - matplotlib-base
+  - discretize>=0.12
+  - geoana>=0.7
+  - libdlf
+  - empymod>=2.0.0
+  - pandas
+  - dask
+  - zarr
+  - fsspec
+  - jupyter
+  - jupyterlab
+  - h5py
+  - pillow
+  - pylint
+  - sympy
+  - wheel
+  - pytest
+  - pytest-cov
+  - toolz
+  - tqdm
+  - memory_profiler
+  - pip
+  - python-kaleido
+  - pip:
+    - git+https://github.com/simpeg/simpeg@nsem_fictitious_source
