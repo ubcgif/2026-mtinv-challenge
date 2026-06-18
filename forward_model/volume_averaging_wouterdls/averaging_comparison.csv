@@ -1,0 +1,9 @@
+mesh,rule,cal_appres_pct
+shell 62.5 m (12k cells),hard,8.47
+shell 62.5 m (12k cells),harmonic,3.57
+shell 62.5 m (12k cells),geometric,10.16
+shell 62.5 m (12k cells),arithmetic,15.16
+shell 125 m (7k cells),hard,15.34
+shell 125 m (7k cells),harmonic,4.54
+shell 125 m (7k cells),geometric,18.73
+shell 125 m (7k cells),arithmetic,30.49
