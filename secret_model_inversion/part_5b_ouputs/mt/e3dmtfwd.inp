@@ -1,0 +1,21 @@
+../../part_3_outputs/octree_mesh_ne.txt ! octree mesh
+V1FORMAT survey.dat ! survey file
+1DBACKGROUND VALUE 0.02 ! Background conductivity file
+FWDMODEL ../fwd_ubcgif_files/model.con ! real conductivity model
+VALUE 0.02 ! reference model
+NO_SUS ! Background susceptibility model
+active_cells_topo.txt ! topo active cells
+active_cells_topo.txt ! active model cells
+NO_WEIGHT ! model weights
+NO_FACE_WEIGHT ! face weights
+USE_L2 ! sparseness
+DEFAULT ! beta cooling
+1e-8 1 1 1 ! regularization constants
+1 ! chi factor
+3 13 ! iter_per_beta nBetas
+1e-2 20 ! tol_ipcg max_iter_ipcg
+NOT_CHANGE_MREF ! update reference model
+SMOOTH_MOD ! SMOOTH_MOD | SMOOTH_MOD_DIF
+BOUNDS_NONE ! bounds
+FACTOR_IC ! memory options
+MINUS_IOMEGA ! Fourier convention
